@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-App</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body onload="getCurrentLocationWeather()">
+    <div id="main-container">
+        <div id="search-bar" >
+            <input  id="search-input" type="text"  placeholder="Enter city name...." >
+            <button id="serach-btn" onclick="searchByCityName()">Search</button>
+        </div>
+        <div id="city-details">
+            <!-- <span id="currTime"></span> -->
+            <span id="city"></span>
+        </div>
+        <div id="container">
+            <div id="temp-detail-box">
+                <ul >
+                    <li><img alt="img couldn't load" src="" id="current-weather-img"></li>
+                    <li><span id="temp"></span></li>
+                    <li><span id="currWeather"></span></li>
+                    <li><span id="temp-like"></span></li>
+                </ul>
+            </div>
+            <div id="description-box">
+                <ul>
+                    <li><span id="description"></span></li>
+                    <li><span id="max-temp"></span></li>
+                </ul>
+            </div>
+            <div id="weather-details-box">
+                <ul>
+                    <li>
+                        <label>wind</label>
+                        <span id="wind">.......</span>
+                    </li>
+                    <li>
+                        <label>humidity</label>
+                        <span id="humidity">.......</span>
+                    </li>
+                    <li>
+                        <label>visibility</label>
+                        <span id="visibility">.......</span>
+                    </li>
+                    <li>
+                        <label>pressure</label>
+                        <span id="pressure">.......</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    
+    <script src="./script.js" defer></script>
+</body>
+</html>
