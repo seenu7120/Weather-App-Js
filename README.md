@@ -5,4 +5,4 @@
 #### In this app i was used the "openweathermap" API for fetching the weather details. 
 ## Test >>>>>>
 
-Link :https://github.com/seenu7120/Weather-App-Js
+Link :https://seenu7120.github.io/Weather-App-Js/
